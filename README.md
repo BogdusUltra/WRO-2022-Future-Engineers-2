@@ -1,4 +1,4 @@
-# WRO-2022-Future-Engineers-2URL to youtube - https://youtu.be/OjZ5FfyUcak
+URL to youtube - https://youtu.be/OjZ5FfyUcak
 
 # Description of the algorithms
 The ![main.py](https://github.com/BogdusUltra/WRO-2022-Future-Engineers/blob/main/main.py) is a separate program. It resides on the pyboard. It exchanges data packets with ![qualification.py](https://github.com/BogdusUltra/WRO-2022-Future-Engineers/blob/main/qualification.py) or ![final.py](https://github.com/BogdusUltra/WRO-2022-Future-Engineers/blob/main/final.py) (depending on which program is running on the Raspberry Pi) via UART. The pyboard processes the received data and depending on the values that were in the data packet, it changes the angle of the servo, the speed of the motors and changes the colour of the RGB LEDs (headlights).
